@@ -1,0 +1,27 @@
+                                                                           GETTING STARTED WITH HTML.
+                                                                             ASSIGNMENT QUESTION 2:
+Question2.
+Explain the purpose of comments in html and provide an example how to use comment in an html document?
+
+SOLUTION:
+HTML <!--...--> Tag
+The comment tag is used to insert comments in the source code. Comments are not rendered in the web page. You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.
+
+How to Write a Comment In HTML:
+To leave a comment in HTML, place a <!-- tag before the code and a --> tag after the code that you want to hide. These tags tell browsers to ignore anything between them.
+For example, say you’re building a website with a team of developers. You want to leave a note reminding them that all buttons should use the same color.
+You can also quickly comment a line of code with the keyboard shortcut Ctrl + / on PC or Command + /. This method is much faster than typing the tags manually.
+
+How to Write a Multi-line Comment in HTML:
+To create a comment in HTML over multiple lines, you can use the same method — just enclose your target text inside <!-- --> tags.
+
+How to Write an Inline Comment in HTML:
+It’s also possible to leave inline comments between active sections of HTML code:
+EXAMPLE:
+<h1>Hello, world!</h1>
+<!--
+please make all
+buttons orange,
+including this one!
+-->
+<button>Click me</button>

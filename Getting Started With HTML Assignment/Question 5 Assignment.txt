@@ -1,0 +1,22 @@
+﻿                                                                         GETTING STARTED WITH HTML.
+                                                                             ASSIGNMENT QUESTION 5:
+
+QUESTION 5.
+What is DOCTYPE Declaration in HTML?
+
+SOLUTION:
+ On the HTML document you have often seen that there is a <!DOCTYPE html> declaration before the <html> tag. HTML <!DOCTYPE> tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD).
+Technically <!DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type. It is a null element which does not contain the closing tag, and must not include any content within it.
+Actually, there are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc.
+The <!DOCTYPE> declaration refers Document Type Declaration (DTD) in HTML 4.01; because HTML 4.01 was based on SGML. But HTML 5 is not SGML based language.
+Let's see an example of HTML document with doctype declaration.
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>This is the title</title>  
+</head>  
+<body>  
+This is the content of the document.  
+</body>  
+</html>
